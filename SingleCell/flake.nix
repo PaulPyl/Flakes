@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    flake-utils.url = "github.com/numtide/flake-utils";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = { self, nixpkgs, flake-utils }:
@@ -15,8 +15,19 @@
         rPackages = with pkgs.rPackages; [
           # Base R packages are often included, but we specify the extra ones
           # Note: Nix handles dependencies, so you typically just list the top-level packages.
-          seurat
-          singleCellExperiment
+          batchelor
+          BiocParallel
+          doParallel
+          foreach
+          ggplot2
+          ggsci
+          patchwork
+          scater
+          scDotPlot
+          scran
+          Seurat
+          SingleCellExperiment
+          tidyverse
         ];
 
       in {
@@ -27,7 +38,7 @@
           # List the packages to include in the shell environment
           packages = [
             # Base R interpreter
-            pkgs.r
+            pkgs.R
             # The specified R packages (and their dependencies)
           ] ++ rPackages;
 
