@@ -1,5 +1,5 @@
 {
-  description = "A development shell for R with Seurat and SingleCellExperiment";
+  description = "A development shell for R with tidyverse and ggplot2 features";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -15,21 +15,16 @@
         rPackages = with pkgs.rPackages; [
           # Base R packages are often included, but we specify the extra ones
           # Note: Nix handles dependencies, so you typically just list the top-level packages.
-          batchelor
-          BiocParallel
-          doParallel
-          foreach
-          scater
-          scDotPlot
-          scran
-          Seurat
-          SingleCellExperiment
+          ggplot2
+          ggsci
+          patchwork
+          tidyverse
         ];
 
       in {
         # Define the development shell
         devShells.default = pkgs.mkShell {
-          name = "r-seurat-sce-shell";
+          name = "r-tidyverse";
 
           # List the packages to include in the shell environment
           packages = [
