@@ -29,8 +29,6 @@
       in {
         # Define the development shell
         devShells.default = pkgs.mkShell {
-          name = "r-seurat-sce-shell";
-
           # List the packages to include in the shell environment
           packages = [
             # Base R interpreter
