@@ -21,7 +21,7 @@
           survminer
           psych
           magick
-          randomforest
+          randomForest
         ];
 
       in {
