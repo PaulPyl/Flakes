@@ -56,11 +56,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1760284886,
-        "narHash": "sha256-TK9Kr0BYBQ/1P5kAsnNQhmWWKgmZXwUQr4ZMjCzWf2c=",
+        "lastModified": 1762111121,
+        "narHash": "sha256-4vhDuZ7OZaZmKKrnDpxLZZpGIJvAeMtK6FKLJYUtAdw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "cf3f5c4def3c7b5f1fc012b3d839575dbe552d43",
+        "rev": "b3d51a0365f6695e7dd5cdf3e180604530ed33b4",
         "type": "github"
       },
       "original": {
@@ -117,11 +117,11 @@
       },
       "locked": {
         "dir": "SingleCell",
-        "lastModified": 1760535394,
-        "narHash": "sha256-vrT2s9/7Undha+1tOnlBv5MFW0ZtPCSYCZIiJCtTECQ=",
+        "lastModified": 1762333368,
+        "narHash": "sha256-beA+Cn9ZjtWr8KYRbRdL8n9Qdxq1mgS5WdN/U5DTE6Q=",
         "owner": "PaulPyl",
         "repo": "Flakes",
-        "rev": "09af34fe97a902ab5b42eaeb701e83c128d7d932",
+        "rev": "66d09aac410fa4dcdb444b87acb52ac5b11e2a8f",
         "type": "github"
       },
       "original": {
@@ -183,11 +183,11 @@
       },
       "locked": {
         "dir": "Tidyverse",
-        "lastModified": 1760535394,
-        "narHash": "sha256-vrT2s9/7Undha+1tOnlBv5MFW0ZtPCSYCZIiJCtTECQ=",
+        "lastModified": 1762333368,
+        "narHash": "sha256-beA+Cn9ZjtWr8KYRbRdL8n9Qdxq1mgS5WdN/U5DTE6Q=",
         "owner": "PaulPyl",
         "repo": "Flakes",
-        "rev": "09af34fe97a902ab5b42eaeb701e83c128d7d932",
+        "rev": "66d09aac410fa4dcdb444b87acb52ac5b11e2a8f",
         "type": "github"
       },
       "original": {
