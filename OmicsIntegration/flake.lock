@@ -112,11 +112,11 @@
       },
       "locked": {
         "dir": "Tidyverse",
-        "lastModified": 1760535542,
-        "narHash": "sha256-R0Y0ipyAIhGdNZ4LYKWgTIQcDF2e1wGv2cKJW8Aclik=",
+        "lastModified": 1762331256,
+        "narHash": "sha256-lWl8wx6HP1jmO2N/62mTUvM5CWLEnEBSAbT0R6A2cc0=",
         "owner": "PaulPyl",
         "repo": "Flakes",
-        "rev": "9c163f8c45a045d3896f1666eefd329f76a5d667",
+        "rev": "fdc1ed7852f145f3dfb6bd320bd7f198e23efd77",
         "type": "github"
       },
       "original": {
