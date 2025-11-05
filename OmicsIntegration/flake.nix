@@ -18,6 +18,7 @@
           # Note: Nix handles dependencies, so you typically just list the top-level packages.
           mixOmics
           MOFA2
+          MOFAdata
           survminer
           psych
           magick
